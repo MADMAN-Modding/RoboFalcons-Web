@@ -150,3 +150,21 @@ nav ul li a {
   text-decoration: none;
   color: #ffffff
   }
+
+  #sponsors{
+    padding-bottom: 40px;
+  }
+
+  #facebook{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+#dclogo{
+  padding-top: 200px;
+}
+
+#team_list{
+  font-size: 25px;
+}
