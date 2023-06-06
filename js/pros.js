@@ -8,4 +8,12 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
-} 
+}
+
+let x = 0
+
+function image(){
+  var currentScrollPos = xy
+  console.log(xy)
+  document.getElementById("body").style.backgroundImage = "none"
+}
