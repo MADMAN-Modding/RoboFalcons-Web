@@ -10,14 +10,14 @@ body{
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0px;
+  background-position: center;
   }
 
 /* Navbar Container */
 #navbar {
   background-color: #16171a; /* Black background color */
   position: fixed; /* Make it stick/fixed */
-  top: 15; /* Stay on top */
+  top: 0; /* Stay on top */
   width: auto; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   font-family: Bold;
@@ -37,7 +37,7 @@ body{
 #dropbtn {
   background-color: inherit;
   color: red;
-  padding:14px 16px;
+  padding:14px 20px;
   font-size: 16px;
   border: none;
   font-family: inherit;
@@ -167,4 +167,39 @@ nav ul li a {
 
 #team_list{
   font-size: 25px;
+}
+
+.ESA-T {
+  display: none;
+}
+
+.ESA:hover + .ESA-T{
+  display: block;
+  color: white;
+}
+
+.RA-T{
+  display: none;
+}
+
+.RA:hover + .RA-T{
+  display: block;
+  color: white;
+}
+
+.CA-T {
+  display: none;
+}
+
+.CA:hover + .CA-T {
+  display: block;
+  color: white;
+}
+
+.achievements{
+  list-style-type: none;
+}
+
+#Awards_Recognition {
+  font-size: 35px;
 }
