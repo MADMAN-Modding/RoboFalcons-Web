@@ -56,5 +56,19 @@ h1 {
 @media (min-width: 1550px) {
   h1{
       padding-top: 0%;
+  }  
+}
+
+
+.calender {
+  width: 100vw;
+  height: calc(100vw * 0.95);
+}
+
+@media (min-width:800px) {
+  .calender {
+    width: 800px;
+    height: calc(800px * 0.95);
   }
 }
+
