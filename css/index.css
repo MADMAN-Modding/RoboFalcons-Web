@@ -2,6 +2,7 @@ body{
 
   /* border: 3px solid Red;
   border-radius: 16px; */
+  overflow-y: scroll; overflow-x: hidden;
   }
 
 h1 {
@@ -122,77 +123,6 @@ nav ul li a {
   font-size: 35px;
 }
 
-/* ESA */
-
-/* Mobile */
-.ESA {
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-/* Tablet */
-@media (min-width:600px) {
-    .ESA {
-        padding: 0%;
-    }
-}
-
-/* Desktop */
-@media (min-width:1000px) {
-    .ESA {
-        padding: 0%;
-    }
-}
-
-/* RA */
-
-/* Mobile */
-.RA {
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 2%;
-}
-
-/* Tablet */
-@media (min-width:600px) {
-  .RA {
-      padding: 0%;
-      padding-top: 2%;
-  }
-}
-
-/* Desktop */
-@media (min-width:1000px) {
-  .RA {
-      padding: 0%;
-      padding-top: 2%;
-  }
-}
-
-/* CA */
-
-/* Mobile */
-.CA {
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 2%;
-}
-
-/* Tablet */
-@media (min-width:600px) {
-  .CA {
-      padding: 0%;
-      padding-top: 2%;
-  }
-}
-
-/* Desktop */
-@media (min-width:1000px) {
-  .CA {
-      padding: 0%;
-      padding-top: 2%;
-  }
-}
 
 /* H1 */
 
