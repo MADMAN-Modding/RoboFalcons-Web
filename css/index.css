@@ -111,6 +111,10 @@ h1 {
   }
 }
 
+.sponsor {
+  height: 90vh;
+}
+
 /* Competition */
 
 .competition {
