@@ -62,6 +62,10 @@ li {
   color: white;
 }
 
+.ESA {
+  padding-bottom: 10px;
+}
+
 .RA-T{
   display: none;
 }
@@ -71,6 +75,10 @@ li {
   color: white;
 }
 
+.RA {
+  padding-bottom: 10px;
+}
+
 .CA-T {
   display: none;
 }
@@ -78,6 +86,10 @@ li {
 .CA:hover + .CA-T {
   display: block;
   color: white;
+}
+
+.CA {
+  padding-bottom: 10px;
 }
 
 .achievements{
@@ -112,7 +124,9 @@ h1 {
 }
 
 .sponsor {
-  height: 90vh;
+  width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Competition */
