@@ -4,9 +4,33 @@ body{
   border-radius: 16px; */
   }
 
+/* H1 */
+
+/* Default */
 h1 {
   color: white;
-  padding-top:100px;
+  padding-top: 50%;
+}
+
+/* 375 */
+@media (min-width:375px) {
+  h1 {
+      padding-top: 26%;
+  }
+}
+
+/* 710 */
+@media (min-width: 710px) {
+  h1 {
+    padding-top: 7%;
+  }
+}
+
+/* 1000 */
+@media (min-width:1000px) {
+  h1 {
+      padding-top: 4%;
+  }
 }
 
 h2 {
@@ -53,6 +77,24 @@ li {
   font-size: 25px;
 }
 
+/* Promo Video */
+
+.video {
+  padding: 0;
+  width: 90vw;
+  max-width: 1300px;
+}
+
+/* Sponsors */
+
+.sponsor {
+  width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Awards */
+
 .ESA-T {
   display: none;
 }
@@ -63,6 +105,9 @@ li {
 }
 
 .ESA {
+  width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-bottom: 10px;
 }
 
@@ -76,6 +121,9 @@ li {
 }
 
 .RA {
+  width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-bottom: 10px;
 }
 
@@ -89,6 +137,9 @@ li {
 }
 
 .CA {
+  width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-bottom: 10px;
 }
 
@@ -99,34 +150,6 @@ li {
 
 #Awards_Recognition {
   font-size: 35px;
-}
-
-
-/* H1 */
-
-/* Mobile */
-h1 {
-  padding-top: 25%;
-}
-
-/* Tablet */
-@media (min-width:575px) {
-  h1 {
-      padding-top: 8%;
-  }
-}
-
-/* Desktop */
-@media (min-width:1000px) {
-  h1 {
-      padding-top: 4%;
-  }
-}
-
-.sponsor {
-  width: 800px;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 /* Competition */
@@ -205,12 +228,4 @@ h1 {
     padding-bottom: 0%;
     color: red;
   }  
-}
-
-/* Promo Video */
-
-.video {
-  padding: 0;
-  width: 90vw;
-  max-width: 1300px;
 }

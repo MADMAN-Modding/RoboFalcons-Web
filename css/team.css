@@ -2,22 +2,27 @@
 
     .Top {
         color: white;
-        font-size: 4vh;
     }
 
     /* Mobile */
     .Top {
-    padding-top: 27%;
+    padding-top: 51%;
     }
   
     /* Small */
-    @media (min-width:500px) {
+    @media (min-width: 372px) {
         .Top {
-            padding-top: 20%;
+            padding-top: 30%;
         }
     }   
 
   /* Tablet */
+  @media (min-width:556px) {
+    .Top {
+        padding-top: 18%;
+    }
+  }
+
   @media (min-width:650px) {
     .Top {
         padding-top: 8%;
@@ -32,7 +37,7 @@
   }
 
   /* Desktop */
-  @media (min-width:1455px) {
+  @media (min-width:1576px) {
     .Top {
         padding-top: 0%;
     }

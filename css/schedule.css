@@ -39,7 +39,7 @@ h1 {
 }
 
 /* Tablet */
-@media (min-width:600px) {
+@media (min-width:687px) {
   h1 {
       padding-top: 50px;
   }
@@ -53,7 +53,7 @@ h1 {
 }
 
 /* Bigger Desktop */
-@media (min-width: 1550px) {
+@media (min-width: 1782px) {
   h1{
       padding-top: 0%;
   }  

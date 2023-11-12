@@ -4,17 +4,49 @@ body{
     border-radius: 16px; */
 }
 
-h1{
-    color: white;
-    margin-top: 50px;
-    font-family: sans-serif, bold;
+/* Matches */
+
+/* Mobile */
+h1 {
+  padding-top: 50%;
+  color: white;
 }
 
-h2{
-    color: white;
-    font-family: sans-serif, bold;
-    font-size: 70px;
+/* Tablet */
+@media (min-width: 376px) {
+  h1 {
+      padding-top: 30%;
+  }
 }
+
+@media (min-width:593px) {
+  h1 {
+      padding-top: 20%;
+  }
+}
+
+/* Desktop */
+@media (min-width:657px) {
+  h1 {
+      padding-top: 8%;
+  }
+}
+
+/* Bigger Desktop */
+@media (min-width:1460px){
+  h1 {
+    padding-top: 0%;
+  }
+}
+
+h2 {
+  color: white;
+}
+
+#flip {
+  color: white;
+}
+
 
 #list{
     list-style-type: none;
@@ -44,36 +76,5 @@ h2{
 @media (min-width:900px) {
   .list {
       padding-left: 15%;
-  }
-}
-#flip {
-  color: white;
-}
-
-/* Matches */
-
-/* Mobile */
-h2 {
-  padding-top: 30%;
-}
-
-/* Tablet */
-@media (min-width:520px) {
-  h2 {
-      padding-top: 10%;
-  }
-}
-
-/* Desktop */
-@media (min-width:900px) {
-  h2 {
-      padding-top: 5%;
-  }
-}
-
-/* Bigger Desktop */
-@media (min-width:1160px){
-  h2 {
-    padding-top: 0%;
   }
 }

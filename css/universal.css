@@ -15,6 +15,7 @@ body {
     width: auto; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     font-family: Bold;
+    margin-bottom: 10px;
   }
   
   /* Links inside the navbar */

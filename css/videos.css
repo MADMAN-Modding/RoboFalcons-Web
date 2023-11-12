@@ -9,9 +9,37 @@ p{
     
 }
 
-h1{
-    color: white;
+/* Mobile */
+h1 {
+  padding-top: 50%;
+  color: white;
+}
 
+/* Tablet */
+@media (min-width: 376px) {
+  h1 {
+      padding-top: 30%;
+  }
+}
+
+@media (min-width:593px) {
+  h1 {
+      padding-top: 20%;
+  }
+}
+
+/* Desktop */
+@media (min-width:657px) {
+  h1 {
+      padding-top: 8%;
+  }
+}
+
+/* Bigger Desktop */
+@media (min-width:1828px){
+  h1 {
+    padding-top: 0%;
+  }
 }
 
 li {
@@ -27,7 +55,6 @@ li {
 }
 
 h2{
-  margin-top: 60;
   color: white;
 }
 
