@@ -33,7 +33,7 @@ h1 {
 }
 
 /* Bigger Desktop */
-@media (min-width:1460px){
+@media (min-width:1229px){
   h1 {
     padding-top: 0%;
   }

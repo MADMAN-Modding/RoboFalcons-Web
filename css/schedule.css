@@ -1,35 +1,11 @@
-body{
-background-color:  	#282b30;
-/* border: 2px solid Red;
-border-radius: 16px; */
-}
-
 h1 {
 	color: white;
   padding-top:100px;
 }
+
 /* Schedule */
-/* Mobile */
 .Schedule {
-  margin-left: 2%;
-  margin-right: 2%;
   padding-top: 2%;
-}
-
-/* Tablet */
-@media (min-width:600px) {
-  .Schedule {
-      padding: 0%;
-      padding-top: 2%;
-  }
-}
-
-/* Desktop */
-@media (min-width:1000px) {
-  .Schedule {
-      padding: 0%;
-      padding-top: 2%;
-  }
 }
 
 /* H1 */
@@ -38,37 +14,35 @@ h1 {
   padding-top: 100px;
 }
 
-/* Tablet */
-@media (min-width:687px) {
+@media (min-width: 300px) {
   h1 {
-      padding-top: 50px;
+    padding-top: 46%;
+  }
+}
+
+/* Tablet */
+@media (min-width:349px) {
+  h1 {
+      padding-top: 32%;
   }
 }
 
 /* Desktop */
-@media (min-width:1000px) {
+@media (min-width:552px) {
   h1{
-      padding-top: 4%;
+      padding-top: 10%;
   }
 }
 
-/* Bigger Desktop */
-@media (min-width: 1782px) {
-  h1{
-      padding-top: 0%;
-  }  
+@media (min-width: 1367px) {
+  h1 {
+    padding-top: 4%;
+  }
 }
-
 
 .calender {
   width: 100vw;
   height: calc(100vw * 0.95);
+  max-width: 800px;
+  max-height: calc(800px * 0.95);
 }
-
-@media (min-width:800px) {
-  .calender {
-    width: 800px;
-    height: calc(800px * 0.95);
-  }
-}
-
